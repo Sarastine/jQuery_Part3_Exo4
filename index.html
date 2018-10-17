@@ -1,0 +1,37 @@
+<!--Construisez une page html avec 5 boutons et un rectangle. Chaque bouton provoque une action sur le rectangle.
+
+    Bouton 1 : augmente la hauteur de 10px, si il dépasse 100px, il remet la hauteur à 10px
+    Bouton 2 : met le rectangle en vert
+    Bouton 3 : remet les couleurs initiales
+    Bouton 4 : fait disparaître le rectangle
+    Bouton 5 : fait réaparaître le rectangle
+-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/Ex4jQ.css">
+		<title>jQ Part 3 Exercice 4</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1>jQuerry</h1>
+			<h2>Partie 3 - Exercice 4</h2>
+			<div id="divBorder">
+				<div id="rectangle"></div>
+			</div>
+			<div id="buttons" class="col-12">
+				<div class="row">
+					<button id="heightPlus" class="button col">Plus grand</button>
+					<button id="toGreen" class="button col">En vert !</button>
+					<button id="toInitial" class="button col">Couleur de base</button>
+					<button id="displayNone" class="button col">Disparition</button>
+					<button id="displayBlock" class="button col">Apparition</button>
+				</div>
+			</div>
+		</div>
+		<script src="assets/js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="assets/js/Ex4jQ.js"></script>
+	</body>
+</html>
